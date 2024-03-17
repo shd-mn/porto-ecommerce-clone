@@ -1,0 +1,66 @@
+@use 'global';
+@import 'variables';
+
+//=========== Category Section===========
+
+.category-section {
+    margin-bottom: 6.4rem;
+}
+
+.section-header {
+    padding: 24px 0;
+
+    h2 {
+        text-align: center;
+    }
+}
+
+.category-body {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+
+    .category-product {
+        img {
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+}
+
+//=========== Features Section===========
+.features-body {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+    .features-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0 4.8rem;
+        font-family: Open Sans, sans-serif;
+
+        span {
+            display: inline-block;
+            width: 32px;
+
+            svg {
+                color: $title-clr;
+            }
+        }
+
+        h
+
+        h5 {
+            font-size: 1.4rem;
+            font-weight: 400;
+            color: $subhead-clr;
+        }
+
+        p {
+            text-align: center;
+            font-size: 1.3rem;
+            color: $desc-clr;
+        }
+    }
+}
