@@ -1,0 +1,131 @@
+@media (max-width: 79em) {
+  .hero .hero-content h3,
+  .hero .hero-content h2 {
+    font-size: 3.5rem;
+  }
+  .hero .hero-content h1 {
+    font-size: 7.8rem;
+  }
+  .hero .hero-content .btn {
+    padding: 1.8rem 4rem;
+  }
+  .category-body,
+  .popular-body {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .features-body .features-item {
+    padding: 0 1rem;
+  }
+}
+@media (max-width: 64em) {
+  .header-content .navbar {
+    display: none;
+  }
+  .category-body,
+  .popular-body {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .features-body {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .newsletter-body {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+  .footer-nav {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .footer-nav ul {
+    grid-template-columns: 1fr;
+  }
+  .footer-nav .contact {
+    grid-column: -1/1;
+  }
+  .footer-nav .contact ul {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width: 48em) {
+  .hero .hero-content h3 {
+    font-size: 3.2rem;
+  }
+  .hero .hero-content h2 {
+    font-size: 3.2rem;
+  }
+  .hero .hero-content h1 {
+    font-size: 7.2rem;
+  }
+  .hero .hero-content .sale .price {
+    padding: 6px;
+  }
+  .hero .hero-content .sale .price p {
+    font-size: 2.2rem;
+  }
+  .hero .hero-content .sale .price span {
+    font-size: 1.6rem;
+  }
+  .hero .hero-content .btn {
+    padding: 1.4rem 3.2rem;
+  }
+  .category-body,
+  .banner-body,
+  .popular-body {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .features-body {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+@media (max-width: 40em) {
+  .header-content .header-action {
+    display: none;
+  }
+  .header-content .menu-btn {
+    display: block;
+  }
+  .hero .hero-content {
+    left: 5%;
+    right: 5%;
+  }
+  .hero .hero-content h2,
+  .hero .hero-content h3 {
+    font-size: 2.2rem;
+  }
+  .hero .hero-content h1 {
+    font-size: 5rem;
+  }
+  .hero .hero-content .btn {
+    padding: 1.4rem 3.2rem;
+  }
+  .newsletter-body .subscription-form input {
+    width: 100%;
+    min-width: -moz-max-content;
+    min-width: max-content;
+  }
+  .footer-bottom {
+    flex-direction: column;
+  }
+}
+@media (max-width: 24em) {
+  .container {
+    padding: 0 1.6rem;
+  }
+  .hero .hero-content h3,
+  .hero .hero-content h2 {
+    font-size: 2rem;
+    letter-spacing: 1px;
+  }
+  .hero .hero-content h1 {
+    font-size: 4.5rem;
+  }
+  .hero .hero-content .btn {
+    padding: 1.4rem 3.2rem;
+  }
+  .footer-nav {
+    grid-template-columns: 1fr;
+  }
+  .footer-nav .contact ul {
+    grid-template-columns: 1fr;
+  }
+}/*# sourceMappingURL=queries.css.map */
