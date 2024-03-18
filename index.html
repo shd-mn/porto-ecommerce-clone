@@ -1,125 +1,577 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Porto - eCommerce HTML Template Clone</title>
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+            integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+        <link rel="stylesheet" href="./css/style.css" />
+        <link rel="stylesheet" href="./css/queries.css" />
+    </head>
 
-<head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Porto - eCommerce HTML Template Clone</title>
-    <link rel="stylesheet" href="./css/style.css" />
-</head>
-
-<body>
-    <header></header>
-    <main>
-        <!-- =========== Category Section =========== -->
-        <section class="category-section">
+    <body>
+        <!-- =========== Header=========== -->
+        <header class="header">
             <div class="container">
-                <header class="section-header">
-                    <h2>SHOP BY CATEGORY</h2>
-                </header>
-                <div class="category-body">
-                    <div class="category-product">
+                <div class="header-content">
+                    <a href="#" class="logo">
+                        <img src="./assets/images/logo.png" alt="" />
+                    </a>
+                    <nav class="navbar">
+                        <ul>
+                            <li><a class="nav-link" href="#">Home</a></li>
+                            <li><a class="nav-link" href="#">Categories</a></li>
+                            <li><a class="nav-link" href="#">Products</a></li>
+                            <li><a class="nav-link" href="#">Pages</a></li>
+                            <li><a class="nav-link" href="#">Blog</a></li>
+                            <li><a class="nav-link" href="#">Buy Porto!</a></li>
+                        </ul>
+                    </nav>
+                    <div class="header-action">
                         <a href="#">
-                            <img src="./assets/images/category-1.jpg" alt="Sunglasses" />
-                            <h3>Sunglasses</h3>
-                            <span>8 products</span>
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa-regular fa-user"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa-regular fa-heart"></i>
+                        </a>
+                        <a href="#">
+                            <img src="./assets/icons/shop.svg" alt="" />
                         </a>
                     </div>
-                    <div class="category-product">
-                        <a href="#">
-                            <img src="./assets/images/category-2.jpg" alt="Sunglasses" />
-                            <h3>Sunglasses</h3>
-                            <span>8 products</span>
-                        </a>
-                    </div>
-                    <div class="category-product">
-                        <a href="#">
-                            <img src="./assets/images/category-3.jpg" alt="Sunglasses" />
-                            <h3>Sunglasses</h3>
-                            <span>8 products</span>
-                        </a>
-                    </div>
-                    <div class="category-product">
-                        <a href="#">
-                            <img src="./assets/images/category-4.jpg" alt="Sunglasses" />
-                            <h3>Sunglasses</h3>
-                            <span>8 products</span>
-                        </a>
-                    </div>
-                    <div class="category-product">
-                        <a href="#">
-                            <img src="./assets/images/category-5.jpg" alt="Sunglasses" />
-                            <h3>Sunglasses</h3>
-                            <span>8 products</span>
-                        </a>
-                    </div>
-                    <div class="category-product">
-                        <a href="#">
-                            <img src="./assets/images/category-6.jpg" alt="Sunglasses" />
-                            <h3>Sunglasses</h3>
-                            <span>8 products</span>
-                        </a>
-                    </div>
+
+                    <button class="menu-btn" type="button">
+                        <i class="fa-solid fa-bars"></i>
+                    </button>
                 </div>
             </div>
-        </section>
+        </header>
+        <main>
+            <!-- =========== Hero Section =========== -->
+            <section class="hero-section">
+                <div class="hero">
+                    <img src="./assets/images/slide1.jpg" alt="" />
+                    <div class="hero-content">
+                        <h3>Winter Fashion Trends</h3>
+                        <h2>Get up to 30% off</h2>
+                        <h1>on Jackets</h1>
+                        <div class="sale">
+                            <h5>Starting at</h5>
+                            <div class="price">
+                                <span>$</span>
+                                <p>199</p>
+                                <span>99</span>
+                            </div>
+                        </div>
 
-        <!-- =========== Features Section =========== -->
-        <section class="features-section">
-            <div class="container">
-                <div class="features-body">
-                    <div class="features-item">
-                        <span>
-                            <img src="./assets/icons/headphones.svg" alt="" />
-                        </span>
-                        <h2>CUSTOMER SUPPORT</h2>
-                        <h5>Need Assistence?</h5>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur
-                            adipiscing elit. Duis nec vestibulum magna, et
-                            dapibus lacus. Lorem ipsum dolor sit amet.
-                        </p>
-                    </div>
-                    <div class="features-item">
-                        <span>
-                            <img src="./assets/icons/creditcard.svg" alt="" />
-                        </span>
-                        <h2>SECURED PAYMENT</h2>
-                        <h5>Safe & Fast</h5>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur
-                            adipiscing elit. Duis nec vestibulum magna, et
-                            dapibus lacus. Lorem ipsum dolor sit amet.
-                        </p>
-                    </div>
-                    <div class="features-item">
-                        <span>
-                            <img src="./assets/icons/undo.svg" alt="" />
-                        </span>
-                        <h2>FREE RETURNS</h2>
-                        <h5>Easy & Free</h5>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur
-                            adipiscing elit. Duis nec vestibulum magna, et
-                            dapibus lacus. Lorem ipsum dolor sit amet.
-                        </p>
-                    </div>
-                    <div class="features-item">
-                        <span>
-                            <img src="./assets/icons/shipping.svg" alt="" />
-                        </span>
-                        <h2>FREE SHIPPING</h2>
-                        <h5>Orders Over $99</h5>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur
-                            adipiscing elit. Duis nec vestibulum magna, et
-                            dapibus lacus. Lorem ipsum dolor sit amet.
-                        </p>
+                        <button class="btn" type="button">Shop Now</button>
                     </div>
                 </div>
-            </div>
-        </section>
-    </main>
-</body>
+            </section>
+            <!-- =========== Category Section =========== -->
+            <section class="category-section">
+                <div class="container">
+                    <header class="section-header">
+                        <h2>SHOP BY CATEGORY</h2>
+                    </header>
+                    <div class="category-body">
+                        <div class="category-product">
+                            <a href="#">
+                                <img
+                                    src="./assets/images/category-1.jpg"
+                                    alt="Sunglasses"
+                                />
+                                <h3>Sunglasses</h3>
+                                <span>8 products</span>
+                            </a>
+                        </div>
+                        <div class="category-product">
+                            <a href="#">
+                                <img
+                                    src="./assets/images/category-2.jpg"
+                                    alt="Sunglasses"
+                                />
+                                <h3>Bags</h3>
+                                <span>8 products</span>
+                            </a>
+                        </div>
+                        <div class="category-product">
+                            <a href="#">
+                                <img
+                                    src="./assets/images/category-3.jpg"
+                                    alt="Sunglasses"
+                                />
+                                <h3>Electronics</h3>
+                                <span>8 products</span>
+                            </a>
+                        </div>
+                        <div class="category-product">
+                            <a href="#">
+                                <img
+                                    src="./assets/images/category-4.jpg"
+                                    alt="Sunglasses"
+                                />
+                                <h3>Fashion</h3>
+                                <span>11 products</span>
+                            </a>
+                        </div>
+                        <div class="category-product">
+                            <a href="#">
+                                <img
+                                    src="./assets/images/category-5.jpg"
+                                    alt="Sunglasses"
+                                />
+                                <h3>Headphone</h3>
+                                <span>8 products</span>
+                            </a>
+                        </div>
+                        <div class="category-product">
+                            <a href="#">
+                                <img
+                                    src="./assets/images/category-6.jpg"
+                                    alt="Sunglasses"
+                                />
+                                <h3>Fashion</h3>
+                                <span>24 products</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
+            <!-- =========== Banner Section =========== -->
+            <section class="banner-section">
+                <div class="container">
+                    <div class="banner-body">
+                        <img src="./assets/images/home-banner1.jpg" alt="" />
+                        <img src="./assets/images/home-banner2.jpg" alt="" />
+                        <img src="./assets/images/home-banner3.jpg" alt="" />
+                        <img src="./assets/images/home-banner4.jpg" alt="" />
+                    </div>
+                </div>
+            </section>
+
+            <!-- =========== Popular Section =========== -->
+            <section class="popular-section">
+                <div class="container">
+                    <header class="section-header">
+                        <h2>POPULAR PRODUCTS</h2>
+                    </header>
+                    <div class="popular-body">
+                        <div class="popular-product">
+                            <a href="#">
+                                <img
+                                    src="./assets/images/category-6.jpg"
+                                    alt="Sunglasses"
+                                />
+                                <span class="subhead">CATEGORY</span>
+                                <h4>Women Shoes</h4>
+                                <span class="star"
+                                    ><i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i
+                                ></span>
+                                <div class="price">
+                                    <span>$59.00</span> $49.00
+                                </div>
+                            </a>
+                        </div>
+                        <div class="popular-product">
+                            <a href="#">
+                                <img
+                                    src="./assets/images/category-5.jpg"
+                                    alt="Sunglasses"
+                                />
+                                <span class="subhead">CATEGORY</span>
+                                <h4>Women Shoes</h4>
+                                <span class="star"
+                                    ><i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i
+                                ></span>
+                                <div class="price">
+                                    <span>$59.00</span> $49.00
+                                </div>
+                            </a>
+                        </div>
+                        <div class="popular-product">
+                            <a href="#">
+                                <img
+                                    src="./assets/images/category-4.jpg"
+                                    alt="Sunglasses"
+                                />
+                                <span class="subhead">CATEGORY</span>
+                                <h4>Women Shoes</h4>
+                                <span class="star"
+                                    ><i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i
+                                ></span>
+                                <div class="price">
+                                    <span>$59.00</span> $49.00
+                                </div>
+                            </a>
+                        </div>
+                        <div class="popular-product">
+                            <a href="#">
+                                <img
+                                    src="./assets/images/category-3.jpg"
+                                    alt="Sunglasses"
+                                />
+                                <span class="subhead">CATEGORY</span>
+                                <h4>Women Shoes</h4>
+                                <span class="star"
+                                    ><i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i
+                                ></span>
+                                <div class="price">
+                                    <span>$59.00</span> $49.00
+                                </div>
+                            </a>
+                        </div>
+                        <div class="popular-product">
+                            <a href="#">
+                                <img
+                                    src="./assets/images/category-2.jpg"
+                                    alt="Sunglasses"
+                                />
+                                <span class="subhead">CATEGORY</span>
+                                <h4>Women Shoes</h4>
+                                <span class="star"
+                                    ><i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                                <div class="price">
+                                    <span>$59.00</span> $49.00
+                                </div>
+                            </a>
+                        </div>
+                        <div class="popular-product">
+                            <a href="#">
+                                <img
+                                    src="./assets/images/category-1.jpg"
+                                    alt="Sunglasses"
+                                />
+                                <span class="subhead">CATEGORY</span>
+                                <h4>Women Shoes</h4>
+                                <span class="star">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                                <div class="price">
+                                    <span>$59.00</span> $49.00
+                                </div>
+                            </a>
+                        </div>
+                        <div class="popular-product">
+                            <a href="#">
+                                <img
+                                    src="./assets/images/category-1.jpg"
+                                    alt="Sunglasses"
+                                />
+                                <span class="subhead">CATEGORY</span>
+                                <h4>Women Shoes</h4>
+                                <span class="star"
+                                    ><i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i
+                                ></span>
+                                <div class="price">
+                                    <span>$59.00</span> $49.00
+                                </div>
+                            </a>
+                        </div>
+                        <div class="popular-product">
+                            <a href="#">
+                                <img
+                                    src="./assets/images/category-2.jpg"
+                                    alt="Sunglasses"
+                                />
+                                <span class="subhead">CATEGORY</span>
+                                <h4>Women Shoes</h4>
+                                <span class="star"
+                                    ><i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i
+                                ></span>
+                                <div class="price">
+                                    <span>$59.00</span> $49.00
+                                </div>
+                            </a>
+                        </div>
+                        <div class="popular-product">
+                            <a href="#">
+                                <img
+                                    src="./assets/images/category-3.jpg"
+                                    alt="Sunglasses"
+                                />
+                                <span class="subhead">CATEGORY</span>
+                                <h4>Women Shoes</h4>
+                                <span class="star"
+                                    ><i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i
+                                ></span>
+                                <div class="price">
+                                    <span>$59.00</span> $49.00
+                                </div>
+                            </a>
+                        </div>
+                        <div class="popular-product">
+                            <a href="#">
+                                <img
+                                    src="./assets/images/category-4.jpg"
+                                    alt="Sunglasses"
+                                />
+                                <span class="subhead">CATEGORY</span>
+                                <h4>Women Shoes</h4>
+                                <span class="star"
+                                    ><i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i
+                                ></span>
+                                <div class="price">
+                                    <span>$59.00</span> $49.00
+                                </div>
+                            </a>
+                        </div>
+                        <div class="popular-product">
+                            <a href="#">
+                                <img
+                                    src="./assets/images/category-5.jpg"
+                                    alt="Sunglasses"
+                                />
+                                <span class="subhead">CATEGORY</span>
+                                <h4>Women Shoes</h4>
+                                <span class="star"
+                                    ><i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                                <div class="price">
+                                    <span>$59.00</span> $49.00
+                                </div>
+                            </a>
+                        </div>
+                        <div class="popular-product">
+                            <a href="#">
+                                <img
+                                    src="./assets/images/category-6.jpg"
+                                    alt="Sunglasses"
+                                />
+                                <span class="subhead">CATEGORY</span>
+                                <h4>Women Shoes</h4>
+                                <span class="star">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                                <div class="price">
+                                    <span>$59.00</span> $49.00
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- =========== Features Section =========== -->
+            <section class="features-section">
+                <div class="container">
+                    <div class="features-body">
+                        <div class="features-item">
+                            <span>
+                                <img
+                                    src="./assets/icons/headphones.svg"
+                                    alt=""
+                                />
+                            </span>
+                            <h2>CUSTOMER SUPPORT</h2>
+                            <h5>Need Assistence?</h5>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit. Duis nec vestibulum magna, et
+                                dapibus lacus. Lorem ipsum dolor sit amet.
+                            </p>
+                        </div>
+                        <div class="features-item">
+                            <span>
+                                <img
+                                    src="./assets/icons/creditcard.svg"
+                                    alt=""
+                                />
+                            </span>
+                            <h2>SECURED PAYMENT</h2>
+                            <h5>Safe & Fast</h5>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit. Duis nec vestibulum magna, et
+                                dapibus lacus. Lorem ipsum dolor sit amet.
+                            </p>
+                        </div>
+                        <div class="features-item">
+                            <span>
+                                <img src="./assets/icons/undo.svg" alt="" />
+                            </span>
+                            <h2>FREE RETURNS</h2>
+                            <h5>Easy & Free</h5>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit. Duis nec vestibulum magna, et
+                                dapibus lacus. Lorem ipsum dolor sit amet.
+                            </p>
+                        </div>
+                        <div class="features-item">
+                            <span>
+                                <img src="./assets/icons/shipping.svg" alt="" />
+                            </span>
+                            <h2>FREE SHIPPING</h2>
+                            <h5>Orders Over $99</h5>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit. Duis nec vestibulum magna, et
+                                dapibus lacus. Lorem ipsum dolor sit amet.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- =========== Newsletter Section =========== -->
+            <section class="newsletter-section">
+                <div class="container">
+                    <div class="newsletter-body">
+                        <header>
+                            <h4>SUBSCRIBE NEWSLETTER</h4>
+                            <p>
+                                Get all the latest information on Events, Sales
+                                and Offers.
+                            </p>
+                        </header>
+
+                        <form class="subscription-form" action="#">
+                            <input type="email" placeholder="Email address" />
+                            <button class="submit-btn" type="submit">
+                                Subscribe
+                            </button>
+                        </form>
+
+                        <div class="social">
+                            <a href="#" class="link">
+                                <i class="fa-brands fa-facebook-f"></i>
+                            </a>
+                            <a href="#" class="link">
+                                <i class="fa-brands fa-twitter"></i>
+                            </a>
+                            <a href="#" class="link">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- =========== Footer =========== -->
+            <footer class="footer">
+                <div class="container">
+                    <nav class="footer-nav">
+                        <div class="contact">
+                            <h4>CONTACT INFO</h4>
+                            <ul>
+                                <li>
+                                    <h5>ADDRESS:</h5>
+                                    <a href="#"
+                                        >1234 Street Name, City, England</a
+                                    >
+                                </li>
+                                <li>
+                                    <h5>EMAIL:</h5>
+                                    <a href="#">mail@example.com</a>
+                                </li>
+                                <li>
+                                    <h5>PHONE:</h5>
+                                    <a href="#">(123) 456-7890</a>
+                                </li>
+                                <li>
+                                    <h5>WORKING DAYS/HOURS:</h5>
+                                    <a href="#">(123) 456-7890</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="column">
+                            <h4>MY ACCOUNT</h4>
+                            <ul>
+                                <li><a href="#">About Us</a></li>
+                                <li><a href="#">Contact Us</a></li>
+                                <li><a href="#">My Account</a></li>
+                                <li><a href="#">Orders History</a></li>
+                                <li><a href="#">Advanced Search</a></li>
+                            </ul>
+                        </div>
+                        <div class="column">
+                            <h4>MAIN FEATURES</h4>
+                            <ul>
+                                <li>
+                                    <a href="#">Super Fast HTML Template</a>
+                                </li>
+                                <li>
+                                    <a href="#">1st Fully working Ajax Theme</a>
+                                </li>
+                                <li><a href="#">33 Unique Shop Layouts</a></li>
+                                <li><a href="#">Powerful Admin Panel</a></li>
+                                <li>
+                                    <a href="#">Mobile & Retina Optimized</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+
+                    <!-- =========== Footer Bottom =========== -->
+                    <div class="footer-bottom">
+                        <p>Porto eCommerce. © 2021. All Rights Reserved</p>
+                        <div class="payments">
+                            <i class="fa-brands fa-cc-visa"></i>
+                            <i class="fa-brands fa-cc-paypal"></i>
+                            <i class="fa-brands fa-cc-stripe"></i>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </main>
+    </body>
 </html>
